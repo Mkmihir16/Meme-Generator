@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: wheat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-family: 'Griffy', system-ui;
+    font-size: 5vw;
+}
+.img{
+    margin-top: 2rem;
+    height: 80vh;
+    width: 50vw;
+    background-image: linear-gradient(to right bottom, #968c7f, #90807a, #867677, #796e73, #6a666d, #69656f, #676471, #656373, #77677d, #8d6980, #a36c7b, #b57171);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img img{
+    height:70vh;
+    width:45vw ;
+}
