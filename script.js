@@ -7,11 +7,12 @@ let fun=async function memegenerate(){
     obj= await url.json();
     console.log(obj.url);
     img.src=`${obj.url}`
-} 
+}
+
 fun();
-// img.addEventListener("mouseleave",()=>{
-//      repeat=setInterval(fun,1000);
-// })
-// img.addEventListener("mouseover",()=>{
-//     clearInterval(repeat);
-// })
+img.addEventListener("mouseleave",()=>{
+     repeat=setInterval(fun,1000);
+})
+img.addEventListener("mouseover",()=>{
+    clearInterval(repeat);
+})
